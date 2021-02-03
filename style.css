@@ -17,4 +17,69 @@ body{
 .bottom-border{
     border-bottom: 1px groove #eee;
 }
+
+.sidebar-link{
+    transition: all .4s;
+}
+
+.sidebar-link:hover{
+    background-color: #444;
+    border-radius:5px;
+}
+
+.current{
+    background-color: #851CF3 ;
+    border-radius: 7px;
+    box-shadow: 2px 5px 10px #111;
+    transition: all .3s;
+}
+
+.current:hover{
+    background-color:#B77FF1 ;
+    border-radius: 7px;
+    box-shadow: 2px 5px 20px #111;
+    transform:translate(-1px);
+}
+
+
+.search-input{
+    background: transparent;
+    border: none;
+    border-radius:0 ;
+    border-bottom: 2px solid #999;
+    transition: all .4s;
+}
+
+.search-input:focus{
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #B77FF1;
+}
+
+.search-button{
+    border-radius: 100%;
+    padding: 10px 15px;
+    transition: all .4s;
+}
+
+.search-button:hover{
+    background-color: #eee;
+    transform: translateY(-1px);
+}
+
+
+.icon-parent{
+    position: relative;
+}
+
+.icon-bullet::after{
+    content:"";
+    position: absolute;
+    top:7px;
+    left:15px;
+    height:12px;
+    width:12px;
+    background-color: #ee4c8f  ;
+    border-radius: 50%;
+}
 /* navbar over */
