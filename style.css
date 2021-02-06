@@ -82,4 +82,16 @@ body{
     background-color: #ee4c8f  ;
     border-radius: 50%;
 }
+
+@media(max-width:768px){
+
+    .sidebar{
+        position: relative;
+        height: auto;
+    }
+
+    .top-navbar{
+        position:static;
+    }
+}
 /* navbar over */
