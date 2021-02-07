@@ -97,7 +97,12 @@ body{
 /* navbar over */
 
 
+/* task list */
 
+.task-border{
+    border-left:3px solid #851CF3 ;
+}
+/* task list over  */
 
 /* cards */
 
