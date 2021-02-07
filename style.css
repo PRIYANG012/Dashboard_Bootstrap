@@ -95,3 +95,20 @@ body{
     }
 }
 /* navbar over */
+
+
+
+
+/* cards */
+
+.card-common{
+box-shadow: 2px 2px 5px #999;
+transition: all .1s;
+}
+
+.card-common:hover{
+    box-shadow: 2px 3px 16px #999;
+    transform: translateY(-1px);
+}
+
+/* cards over */
